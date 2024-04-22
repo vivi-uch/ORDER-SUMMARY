@@ -1,0 +1,105 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    padding-top: 1.25rem;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* container */
+.container{
+    border-radius: 3%;
+    /* align-items: center; */
+    background-color: hsl(0, 0%, 100%);
+    /* display: inline-block; */
+    overflow: hidden;
+    width: 400px;
+    margin-bottom: 10px;
+}  
+
+/* header */
+header img {
+    display: block;
+    width: 100%; /* Ensure the image fills the container horizontally */
+}
+
+/* below header */
+.below-header{
+    text-align: center;
+    padding: 30px;
+}
+/* 
+first content */
+#first-content p{
+    color: hsl(210, 20%, 50%);
+    font-weight: 500;
+}
+/* annual plan */
+.annual-plan{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    align-items: center;
+    border-radius: 6px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.merge{
+   margin-left: 15px;
+   line-height: 0.1;
+}
+.merge h2{
+    font-size: 16px;
+}
+.merge p{
+    font-size: 16px;
+    color: hsl(210, 20%, 50%);
+    font-weight: 500;
+}
+.not-merge{
+    margin-left: 100px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+.not-merge:hover{
+    text-decoration: none;
+}
+
+/* button */
+.footer button{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    box-shadow: 0px 20px 6px hsl(225, 100%, 94%);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.footer p{
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+    cursor: pointer;
+}
+.footer p:hover{
+    color: hsl(0, 0,0%,);
+    
+}
+/* attribution */
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
